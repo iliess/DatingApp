@@ -10,13 +10,13 @@ export class HomeComponent implements OnInit {
   registerMode = false;
   // values: any;
 
-  constructor(private http:HttpClient) { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
     // this.getValues();
   }
 
-  registerToggle(){
+  registerToggle() {
     this.registerMode = true;
   }
 
@@ -28,7 +28,7 @@ export class HomeComponent implements OnInit {
   //   });
   // }
 
-  cancelRegisterMode(registerMode: boolean){
+  cancelRegisterMode(registerMode: boolean) {
     this.registerMode = registerMode;
   }
 }
